@@ -3,6 +3,7 @@
   <Map FullExtent="-9194301.5164,3446504.8918,-9151020.2436,3466311.0664" InitialExtent="-9159753.07209531,3456492.31605395,-9159421.34733594,3456647.87734975">
     <LayerList>
       <Items>
+        <Item ID="42" />
         <Item ID="41" />
         <Item ID="1" IsExpanded="false" Name="GasDistribution" Visible="true">
           <Items>
@@ -28,6 +29,12 @@
       </Items>
     </LayerList>
     <MapServices>
+      <FeatureLayer ConnectionString="url=http://52.1.143.233/arcgis103/rest/services/Schneiderville/SEGasExpress/FeatureServer/11" DefaultAllowSymbolization="true" DisplayName="Dx Mains" Function="Operational" ID="6" ImpersonateWithActor="false" IncludeCopyright="false" IncludeInLayerList="false" InstantSearch="false" InstantSearchAttachments="false" IsExpanded="true" Opacity="1" OutFields="*" OverrideTemporalSettings="false" PasswordEncrypted="false" QueryMode="OnDemand" SearchNonTextFields="true" UseHttpAuthentication="false" Visible="true">
+        <CachedServiceData />
+        <Layers>
+          <Layer CanCopyFeature="true" Identifiable="true" IncludeInLayerList="true" IncludeInLegend="true" IsCatalogLayer="false" IsExpanded="false" LayerListID="42" Name="Dx Mains" NativeID="11" Queryable="true" Searchable="false" ShowFeatureHyperlinks="ShowAll" ShowLabels="true" ShowMapTips="false" Snappable="true" SnappingEnabled="false" UnconfiguredFieldsCanSymbolizeClassBreaks="true" UnconfiguredFieldsCanSymbolizeUniqueValue="true" UnconfiguredFieldsSearchable="true" UnconfiguredFieldsVisible="true" UnconfiguredRelationshipsVisible="true" Visible="true" />
+        </Layers>
+      </FeatureLayer>
       <FeatureLayer ConnectionString="url=http://52.1.143.233/arcgis103/rest/services/Schneiderville/SEGasExpress/FeatureServer/5" DefaultAllowSymbolization="true" DisplayName="Dx Non-Controllable Fitting" Function="Operational" ID="5" ImpersonateWithActor="false" IncludeCopyright="false" IncludeInLayerList="false" InstantSearch="false" InstantSearchAttachments="false" IsExpanded="true" Opacity="1" OutFields="*" OverrideTemporalSettings="false" PasswordEncrypted="false" QueryMode="OnDemand" SearchNonTextFields="true" UseHttpAuthentication="false" Visible="true">
         <CachedServiceData />
         <FeatureClustering BackgroundColor="#FFFF0000" ClusterSize="0" Enabled="false" LabelColor="#FFFFFFFF" MaximumFeatures="10" Radius="50" UserCanToggle="true" />

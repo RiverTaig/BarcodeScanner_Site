@@ -58,6 +58,10 @@
             "uri": "Resources/Locales/Mapping.Charting.en-US.json.js"
           }
         ]
+      },
+      {
+        "id": "BarcodeScanner_Modules",
+        "uri": "{ViewerConfigUri}../../Compiled/BarcodeScanner_Modules_out.js"
       }
     ],
     "modules": [
@@ -3043,6 +3047,49 @@
             }
           ]
         }
+      },
+      {
+        "moduleName": "Template",
+        "moduleType": "BarcodeScanner_TSModules.TemplateModule",
+        "libraryId": "BarcodeScanner_Modules",
+        "configuration": {
+          "flagUri": "{ViewerConfigUri}",
+          "inventoryTable": {
+            "ABC-123": {
+              "field1": "A",
+              "field2": 1
+            },
+            "DEF-123": {
+              "field1": "B",
+              "field2": 2
+            },
+            "GHI-123": {
+              "field1": "C",
+              "field2": 3
+            }
+          }
+        },
+        "views": [
+          {
+            "id": "TemplateModuleView",
+            "viewModelId": "TemplateModuleViewModel",
+            "title": "Barcode",
+            "visible": false,
+            "markup": "Modules/Template/TemplateModuleView.html",
+            "type": "BarcodeScanner_TSModules.TemplateModuleView",
+            "region": "DataRegion",
+            "configuration": {}
+          }
+        ],
+        "viewModels": [
+          {
+            "id": "TemplateModuleViewModel",
+            "type": "BarcodeScanner_TSModules.TemplateModuleViewModel",
+            "configuration": {
+              "greeting": "Hello world, from the QuickStart template module."
+            }
+          }
+        ]
       },
       {
         "moduleName": "Shells",

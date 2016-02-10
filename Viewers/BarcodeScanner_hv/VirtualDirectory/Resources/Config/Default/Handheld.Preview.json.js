@@ -3168,6 +3168,7 @@
           {
             "id": "TemplateModuleView",
             "viewModelId": "TemplateModuleViewModel",
+            "title": "Barcode",
             "visible": false,
             "markup": "Modules/Template/TemplateModuleView.html",
             "type": "BarcodeScanner_TSModules.TemplateModuleView",
